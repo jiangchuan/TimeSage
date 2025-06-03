@@ -265,12 +265,6 @@ events = [
 
 ## 🤝 Support & Community
 
-### Getting Help
-- **Documentation**: Comprehensive guides for each solution
-- **Example Notebooks**: Jupyter notebooks with real-world examples
-- **API Reference**: Complete API documentation with examples
-- **Troubleshooting**: Common issues and solutions
-
 ### Contributing
 ```bash
 # Development setup
