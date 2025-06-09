@@ -166,14 +166,12 @@ Automatically generated summary including:
 
 ```
 api_usage_forecast/
-├── APIUsageForecast.py          # Main class
+├── api_usage_forecast.py          # Main class
 ├── README.md                    # This file
-├── requirements.txt             # Dependencies
-└── outputs/
-    ├── API_usage_by_model.png   # Usage decomposition
-    ├── changepoint_detection.png # Changepoint analysis
-    ├── API_usage_forecast.png   # Scenario forecasts
-    └── forecast_uncertainty_analysis.png # Uncertainty
+├── API_usage_by_model.png   # Usage decomposition
+├── changepoint_detection.png # Changepoint analysis
+├── API_usage_forecast.png   # Scenario forecasts
+└── forecast_uncertainty_analysis.png # Uncertainty
 ```
 
 ## Advanced Usage
