@@ -39,6 +39,14 @@ A comprehensive collection of advanced forecasting systems designed for modern A
 - **Output**: Stable demand-capacity states with behavioral response predictions
 - **Key Features**: Game-theoretic analysis, behavioral modeling, policy optimization
 
+### 🖥️ [API Usage Transition Forecasting](6api_usage_forecast)
+**Model deprecation and API migration planning**
+- **Problem**: Complex usage transitions during model deprecation with unpredictable migration patterns and competing model adoption rates
+- **Solution**: Changepoint detection + dual-model Prophet/XGBoost with external regressors for transition dynamics
+- **Output**: Migration scenarios with compute scaling recommendations and infrastructure planning
+- **Key Features**: Changepoint analysis, model competition dynamics, transition scenario planning
+
+
 ## 🎯 When to Use Each Solution
 
 | **Forecasting Challenge** | **Recommended Solution** | **Key Indicators** |
@@ -48,6 +56,9 @@ A comprehensive collection of advanced forecasting systems designed for modern A
 | **Infrastructure Scaling** | Compute Demand | Bursty traffic, GPU/compute resources, cost optimization |
 | **Pricing Strategy** | Customer LTV | Subscription business, acquisition budgets, churn prevention |
 | **Complex Systems** | Feedback-Aware | Self-referential systems, engineering behavior impacts |
+| **Model Transitions** | API Usage Transition | Model deprecation, API migrations, technology transitions |
+
+
 
 ## 🏗️ Technical Architecture
 
